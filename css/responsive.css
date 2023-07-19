@@ -1,0 +1,98 @@
+ /* for mobile device  */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 40px;
+    }
+    .banner-container{
+        background-color: #fff;
+        flex-direction: column-reverse;
+        gap: 20px; 
+    }
+    .banner-content{
+        background-color: rgb(252, 248, 248);
+        border-radius: 20px;
+        width: 85%;
+        min-height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .gamer-container{
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        margin: 20px auto;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+    .btn-group{
+        display: flex;
+        padding: 15px;
+        gap: 5px;
+    }
+    .card-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+        margin: 0 auto;
+    }
+    .gamer-page-container{
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 30px;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .gamer-page-img{
+        width: 70%;
+        margin-top: 40px;
+        margin-left: 120px;
+    }
+    .collection-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 40px;
+    }
+    .collection-container img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+    }
+    .collection-container p{
+        font-size: 10px;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+}
+/* for tablet device */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .nav-container{
+       flex-direction: column;
+       gap: 30px;
+    }
+    .banner-container{
+        background-color: #fff;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .gamer-page-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .gamer-page-img{
+        margin-left: 130px;
+    }
+    .card-container{
+        margin: 0 auto;
+    }
+}
