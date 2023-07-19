@@ -310,26 +310,28 @@ a{
 .collection-container .card{
     display: flex;
     align-items: center;
-    cursor: pointer;
 }
 .collection-container img{
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
+    width: 50px;
+    height: 50px;
 }
 .collection-container p{
-    font-size: 15px;
+    font-size: 20px;
     color: #000000;
 }
-.collection-container .card:hover{
+.card:hover{
     border: 1px solid tomato;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 10px 10px;
+    cursor: pointer;background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* footer section starts here  */
 footer{
     background-color: #0B0223;
-    margin-top: 50px;
+    margin-top: 60px;
     color: white;
 }
 .footer-container{
